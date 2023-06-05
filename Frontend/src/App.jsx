@@ -47,7 +47,7 @@ function App() {
   };
 
   return (
-    <main className="flex h-[130vh] w-[100%] min-h-screen bg-center bg-no-repeat bg-[url('https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_1200,w_1500/v1685986831/background_i6229o.jpg')] bg-gray-700 bg-blend-multiply">
+    <main className="flex h-[160vh] w-[100%] min-h-screen bg-center bg-no-repeat bg-[url('https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_1200,w_1500/v1685986831/background_i6229o.jpg')] bg-gray-700 bg-blend-multiply">
       <div className="w-[50%] mx-auto my-auto bg-white border border-gray-200 rounded-lg shadow sm:p-2 md:p-4 dark:bg-gray-800 dark:border-gray-700">
         {!!error && (
           <div className="alert alert-error">
